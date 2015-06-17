@@ -1,0 +1,34 @@
+{
+  "name": "ajaxessio",
+  "main": "ajaxessio.js",
+  "version": "0.0.1",
+  "authors": [
+    "Kamal Khan <shout@bhittani.com>"
+  ],
+  "description": "Seamless Socket.IO/WebSocket with EventSource and AJAX long polling fallbacks.",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "ajax",
+    "long",
+    "polling",
+    "event",
+    "source",
+    "socket.io",
+    "web",
+    "sockets"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/kamalkhan/ajaxessio",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "event-source-polyfill": "~0.0.6"
+  }
+}
