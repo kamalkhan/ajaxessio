@@ -15,6 +15,7 @@ That's a good question. If you can setup and use a websocket server, then this l
 ---
 ## Table of contents
 
+- [Download](#download)
 - [Startup](#startup)
 - [Usage](#usage)
  - [Create a connection](#create-a-connection)
@@ -31,6 +32,12 @@ That's a good question. If you can setup and use a websocket server, then this l
  - [Run tests](#run-tests)
  - [Build](#build)
 - [License](#license)
+
+# Download
+
+```
+$ bower install ajaxessio --save
+```
 
 # Startup
 
@@ -159,19 +166,19 @@ $ npm install
 ---
 ## Compile coffeescript
 ```
-gulp js
+$ gulp js
 ```
 
 ---
 ## Run tests
 ```
-gulp test
+$ gulp test
 ```
 
 ---
 ## Build
 ```
-gulp
+$ gulp
 ```
 
 ---
