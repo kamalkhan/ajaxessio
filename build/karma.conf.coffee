@@ -9,7 +9,7 @@ module.exports = (config) ->
         # frameworks to use
         # available frameworks: https://npmjs.org/browse/keyword/karma-adapter
         frameworks: [
-            'jasmine'#, 'detectBrowsers'
+            'jasmine', 'detectBrowsers'
         ]
 
 
@@ -77,14 +77,13 @@ module.exports = (config) ->
         # start these browsers
         # available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
         browsers: [
-            'PhantomJS'
-            #'karma-chrome-launcher',
-            #'karma-firefox-launcher',
-            #'karma-ie-launcher',
-            #'karma-safari-launcher',
-            #'karma-opera-launcher',
-            #'karma-phantomjs-launcher',
-            #'karma-detect-browsers'
+            'karma-chrome-launcher',
+            'karma-firefox-launcher',
+            'karma-ie-launcher',
+            'karma-safari-launcher',
+            'karma-opera-launcher',
+            'karma-phantomjs-launcher',
+            'karma-detect-browsers'
         ]
 
         # Continuous Integration mode
