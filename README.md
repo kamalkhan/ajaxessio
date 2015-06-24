@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/kamalkhan/ajaxessio.svg?branch=master)](https://travis-ci.org/kamalkhan/ajaxessio)
-
-AjaxEsSio
+AjaxEsSio [![Build Status](https://travis-ci.org/kamalkhan/ajaxessio.svg?branch=master)](https://travis-ci.org/kamalkhan/ajaxessio)
 ======
 
 AjaxEsSio allows seamless alteration between [socket.io](http://socket.io), [event source](https://developer.mozilla.org/en-US/docs/Web/API/EventSource) and [long polling](https://en.wikipedia.org/wiki/Push_technology#Long_polling)
